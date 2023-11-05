@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+    color: white;
+}
+
+.app {
+    border-radius: 30px;
+    margin: 0 auto; /* Center horizontally */
+    padding: 10px;
+    background-color: orange;
+    border: 3px solid white; /* Changed from border-color to border */
+    text-align: center; /* Center content horizontally */
+}
+
+h1 {
+    color: rgb(252, 84, 0);
+}
+
+.info {
+    color: rgb(252, 84, 0);
+    font-size: x-large;
+    justify-content: center;
+}
+
+.details {
+    color: white;
+    font-size: larger;
+}
+
+.na {
+    border: 3px solid;
+    border-radius: 30px;
+    padding: 15px;
+    width: 35%;
+    background-color: rgb(252, 143, 0);
+}
+
+.su {
+    border: 3px solid;
+    border-radius: 30px;
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(252, 84, 0);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+ul {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    display: block;
+    position: relative;
+    float: right;
+    border-radius: 30px;
+}
+
+li ul {
+    display: none;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(250, 209, 154);
+    padding: 10px 40px;
+    background: rgb(252, 84, 0);
+    margin-right: 3px;
+    white-space: nowrap;
+    border-radius: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background: #617F8A;
+}
+
+li:hover ul {
+    display: block;
+    position: absolute;
+}
