@@ -1,0 +1,64 @@
+body {
+    background-color: gray;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db; /* Change this color to your desired header background color */
+    color: white; /* Text color for the header */
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
